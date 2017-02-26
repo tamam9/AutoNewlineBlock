@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MIndicator">
+        <attr name="isLoop" format="boolean" />
+        <attr name="autoLoop" format="boolean" />
+    </declare-styleable>
+
+</resources>
