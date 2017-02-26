@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="skypiea.com.myapplication.act.MainActivity">
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="slide_act"
+        android:text="slide_act" />
+
+    <Button
+        android:id="@+id/custimize_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="custimize_indicator"
+        android:text="custimize_indicator" />
+
+    <Button
+        android:id="@+id/network_act"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="network_act"
+        android:text="network_act" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="pull2refreshAct"
+        android:text="pull2refresh" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fragment_life_act"
+        android:onClick="fragment_life_act"
+        android:id="@+id/fragment_life_act"
+        tools:text="fragment_life_act" />
+</LinearLayout>
